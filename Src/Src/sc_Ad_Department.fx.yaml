@@ -1,0 +1,94 @@
+sc_Ad_Department As screen:
+    Fill: =RGBA(227, 234, 243, 1)
+    Height: =
+    OnVisible: =Set(varbol, true)
+
+    Rectangle1_1 As rectangle:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =Parent.Height
+        Width: =Parent.Width
+        ZIndex: =1
+
+    bn_Style_4 As button:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =428
+        RadiusBottomLeft: =45
+        RadiusBottomRight: =45
+        RadiusTopLeft: =45
+        RadiusTopRight: =45
+        Text: =""
+        Width: =902
+        X: =464
+        Y: =138
+        ZIndex: =2
+
+    bn_Style_3 As button:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =615
+        RadiusBottomLeft: =35
+        RadiusBottomRight: =35
+        RadiusTopLeft: =35
+        RadiusTopRight: =35
+        Text: =""
+        Width: =411
+        X: =26
+        Y: =138
+        ZIndex: =3
+
+    Group2_2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =15
+
+        bn_Header_6 As button:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =102
+            RadiusBottomLeft: =30
+            RadiusBottomRight: =30
+            RadiusTopLeft: =30
+            RadiusTopRight: =30
+            Text: =""
+            Width: =1337
+            X: =15
+            Y: =15
+            ZIndex: =5
+
+        lb_Title_2 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Height: =102
+            Size: =25
+            Text: ="INTERVIEW MANAGEMENT TOOL"
+            Width: =620
+            X: =335
+            Y: =15
+            ZIndex: =6
+
+        lb_user_2 As label:
+            Height: =50
+            Size: =18
+            Text: =User().FullName
+            Width: =234
+            X: =1001
+            Y: =16
+            ZIndex: =7
+
+        im_Profile_2 As image:
+            Image: =User().Image
+            RadiusBottomLeft: =50
+            RadiusBottomRight: =50
+            RadiusTopLeft: =50
+            RadiusTopRight: =50
+            X: =1236
+            Y: =16
+            ZIndex: =8
+
+        im_company_logo_2 As image:
+            Image: ='bradsol-logo'
+            Width: =231
+            X: =46
+            Y: =15
+            ZIndex: =9
+

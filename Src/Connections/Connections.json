@@ -1,0 +1,46 @@
+{
+  "5ab3ce45-76a5-49c0-ace3-5801418ae3ee": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1623/1.0.1623.3210/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://bradsol.sharepoint.com/sites/BradsolInterviewManagementTool": {
+        "dataSources": {
+          "Candidate_c": {
+            "tableName": "0862cc31-06f1-4f29-90bb-c964fadc796d"
+          },
+          "Department_a": {
+            "tableName": "e2775a6a-b9cf-4e28-bcdd-a44a522e5cba"
+          },
+          "Documents": {
+            "tableName": "0923dcbd-b17e-4960-ae81-f3634168dd25"
+          },
+          "Interviewer_d": {
+            "tableName": "b472c3f9-cc74-4994-bb47-31d97a2e8c8a"
+          },
+          "Positions_b": {
+            "tableName": "0f3a3bd2-02b5-44a8-82df-673dbb3e8716"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Department_a",
+      "Candidate_c",
+      "Documents",
+      "Positions_b",
+      "Interviewer_d"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5ab3ce45-76a5-49c0-ace3-5801418ae3ee"
+  }
+}

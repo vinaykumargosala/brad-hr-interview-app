@@ -1,0 +1,140 @@
+sc_depart As screen:
+    OnVisible: =true
+
+    Rectangle1_2 As rectangle:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =Parent.Height
+        Width: =Parent.Width
+        ZIndex: =1
+
+    bn_Style_1 As button:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =581
+        RadiusBottomLeft: =35
+        RadiusBottomRight: =35
+        RadiusTopLeft: =35
+        RadiusTopRight: =35
+        Text: =""
+        Width: =385
+        X: =26
+        Y: =172
+        ZIndex: =3
+
+    Label4_1 As label:
+        Height: =139
+        Size: =20
+        Text: ="Share and review interview feedback on job candidates."
+        Width: =391
+        X: =46
+        Y: =427
+        ZIndex: =13
+
+    Icon2_1 As icon.Globe:
+        Height: =80
+        Icon: =Icon.Globe
+        Width: =130
+        X: =147
+        Y: =354
+        ZIndex: =14
+
+    bn_Style_5 As button:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =284
+        RadiusBottomLeft: =35
+        RadiusBottomRight: =35
+        RadiusTopLeft: =35
+        RadiusTopRight: =35
+        Text: =""
+        Width: =807
+        X: =484
+        Y: =172
+        ZIndex: =15
+
+    Group2_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =15
+
+        bn_Header_9 As button:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =102
+            RadiusBottomLeft: =30
+            RadiusBottomRight: =30
+            RadiusTopLeft: =30
+            RadiusTopRight: =30
+            Text: =""
+            Width: =1337
+            X: =15
+            Y: =15
+            ZIndex: =5
+
+        lb_Title_3 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Height: =102
+            Size: =25
+            Text: ="INTERVIEW MANAGEMENT TOOL"
+            Width: =620
+            X: =335
+            Y: =15
+            ZIndex: =6
+
+        lb_user_3 As label:
+            Height: =50
+            Size: =18
+            Text: =User().FullName
+            Width: =234
+            X: =1001
+            Y: =16
+            ZIndex: =7
+
+        im_Profile_3 As image:
+            Image: =User().Image
+            RadiusBottomLeft: =50
+            RadiusBottomRight: =50
+            RadiusTopLeft: =50
+            RadiusTopRight: =50
+            X: =1236
+            Y: =16
+            ZIndex: =8
+
+        im_company_logo_3 As image:
+            Image: ='bradsol-logo'
+            Width: =231
+            X: =46
+            Y: =15
+            ZIndex: =9
+
+    Form2 As form:
+        DataSource: =Department_a
+        Height: =226
+        Item: =Gl_Department.Selected
+        OnSuccess: =Navigate(sc_HomeScreen,ScreenTransition.Fade);
+        Width: =733
+        X: =499
+        Y: =191
+        ZIndex: =16
+
+    Button5 As button:
+        OnSelect: =SubmitForm(Form2);
+        RadiusBottomLeft: =030
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =30
+        Size: =18
+        Text: ="Submit"
+        X: =1110
+        Y: =594
+        ZIndex: =17
+
+    Arrow1 As arrow.backArrow:
+        Fill: =RGBA(77, 77, 77, 1)
+        Height: =57
+        OnSelect: =Navigate(sc_HomeScreen,ScreenTransition.None)
+        Width: =59
+        X: =26
+        Y: =696
+        ZIndex: =19
+

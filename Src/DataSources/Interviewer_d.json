@@ -1,0 +1,48 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-03-21T17:10:01.9650000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{HasAttachments}": "Has attachments",
+      "{Identifier}": "Identifier",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Contact_x0020_No": "Contact No",
+      "Created": "Created",
+      "Department": "Department",
+      "Department#Id": "Department Id",
+      "Designation": "Designation",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "Email": "Email",
+      "ID": "ID",
+      "Modified": "Modified",
+      "Title": "Title"
+    },
+    "DatasetName": "https://bradsol.sharepoint.com/sites/BradsolInterviewManagementTool",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Interviewer_d",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
